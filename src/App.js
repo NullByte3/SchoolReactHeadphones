@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+import headphones from './headphones.png';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <center>
+
+
+
+
+        <div className="container">
+          <div className="left">
+            <img src={headphones} className="headphones" alt="logo" />
+          </div>
+
+        </div>
+
+        <div className="container">
+          <div className="middle">
+            <h1>
+              Tech Specs
+            </h1>
+          </div>
+
+        </div>
+
+
+
+
+      </center>
+
+
+
     </div>
+
+
+
   );
 }
 

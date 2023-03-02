@@ -14,14 +14,29 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.left,
+.right {
+  flex-basis: 20%;
+}
+
+.middle {
+  flex-basis: 60%;
 }
 
 .App-link {
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
